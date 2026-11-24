@@ -8,12 +8,12 @@ The haiku:
     but the server disagrees
     and now mine fails too
 
-One concrete incident: the developer's flat excuse, "works on my
-machine", answered by a server that disagrees. The first line states
-the excuse, the second contradicts it, and the last line turns the
-whole thing around: the machine that worked now fails too. The bug
-did not stay on the server; it followed the developer home, and the
-excuse collapses in five syllables.
+The joke is a small debugging tragedy in three beats. First comes
+the classic excuse, "works on my machine", spoken with total
+confidence. Then the server answers back and disagrees, so the
+excuse starts to wobble. The last line turns it all around: the
+machine that worked now fails too, and the bug the developer tried
+to blame on somewhere else has followed them home.
 
 Syllables, counted aloud: works(1) on(1) my(1) machine(2) = 5;
 but(1) the(1) server(2) disagrees(3) = 7;
@@ -45,7 +45,6 @@ SYLLABLES = {
     "fails": 1,
     "too": 1,
 }
-
 
 
 def count_syllables(line):
